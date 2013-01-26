@@ -156,7 +156,7 @@ LOGGING = {
 			'formatter': 'standard',
 		},
 		'db_handler': {
-			'level': 'DEBUG',
+			'level': 'INFO',
 			'class': 'logging.handlers.RotatingFileHandler',
 			'filename': 'logs/db.log',
 			'maxBytes': 1024*1024*5, # 5 MB
